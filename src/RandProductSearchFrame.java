@@ -87,7 +87,7 @@ public class RandProductSearchFrame  extends JFrame
             displayTextArea.setText("");
             input = inputTextField.getText();
             File workingDirectory = new File(System.getProperty("user.dir"));
-            Path file = Paths.get(workingDirectory.getPath() + "\\Products.txt");
+            Path file = Paths.get(workingDirectory.getPath() + "\\ProductsRecreation.txt");
             try
             {
                 RandomAccessFile inFile = new RandomAccessFile(file.toString(), "r");
